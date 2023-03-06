@@ -1,0 +1,9 @@
+1. Compile an OpenFN job (hello.js). What's the difference between the job you wrote and the compiled job?
+    A compiled job does not run logs and simply creates the output.json
+
+2. Run a job without "strict mode" enabled. What's the difference between the outputs when strict mode is enabled and disabled?
+    An output without strict mode enabled may contain properties other than the data to be returned
+
+3. Run a job with the log level set to none, and then run it again with the log level set to debug. When is it appropriate to use these different log levels?
+    Debug would be better suited when trying to figure out what may have gone wrong, aka debugging. Whilst none might be better if you wish to remove much of the output boilerplate
+
